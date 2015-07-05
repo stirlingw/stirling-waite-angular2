@@ -34,7 +34,7 @@ import {routerInjectables} from 'angular2/router';
  * App Services
  * our collection of injectables services
  */
-import {appServicesInjectables} from './services/services';
+//import {appServicesInjectables} from './services/services';
 /*
  * App Component
  * our top level component that holds all of our components
@@ -42,7 +42,7 @@ import {appServicesInjectables} from './services/services';
 // import {App} from './components/app';
 
 // A simple version of our App without the router or other components
-import {App} from './components/app-simple';
+//import {App} from './components/app-simple';
 
 
 /*
@@ -55,7 +55,7 @@ var universalInjectables = [
     routerInjectables,
 
     // Our collection of services from /services
-    appServicesInjectables
+//    appServicesInjectables
 ];
 
 /*
@@ -78,7 +78,7 @@ var platformInjectables = [
  */
 bootstrap(
     // Top Level Component
-    App,
+//    App,
 
     // AppInjector
     [
